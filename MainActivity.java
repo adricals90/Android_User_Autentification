@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
     EditText logEmail;
     EditText logPassword;
     Button login;
-    String loginUrl= "http://10.0.2.2:9999/dbConnect/login";
+    // String loginUrl = "http://10.0.2.2:9999/dbConnect/login";
+    String loginUrl= "http://userauthentication-env.tsgxdqnqhw.us-east-2.elasticbeanstalk.com/login";
 
 
 

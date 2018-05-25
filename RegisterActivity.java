@@ -28,7 +28,9 @@ public class RegisterActivity extends AppCompatActivity {
     EditText regPassword;
     EditText regConfPassword;
     Button register;
-    String regUrl = "http://10.0.2.2:9999/dbConnect/register";
+   // String regUrl = "http://10.0.2.2:9999/dbConnect/register";
+   String regUrl= "http://userauthentication-env.tsgxdqnqhw.us-east-2.elasticbeanstalk.com/register";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
